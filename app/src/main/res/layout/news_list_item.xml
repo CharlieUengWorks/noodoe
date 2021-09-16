@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/text_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textchtmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="chtmessage"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textengmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="engmessage"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textstarttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="starttime"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textendtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="endtime"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textupdatetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="updatetime"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/textcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/texturl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="url"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
